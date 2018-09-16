@@ -1,0 +1,14 @@
+
+    Crear una clase Calculador con las siguientes características:
+        Contendrá un atributo de instancia y privado llamado acumulador : int
+        Tendrá los siguientes métodos:
+            Calculador() constructor por defecto, el cual inicializará el acumulador = 0
+            acumular(string) : void recibirá un binario en formato ASCII y lo acumulará como entero en el atributo acumulador
+            getResultadoBinario() : string retornará la variable acumulador convertida a binario.
+            getResultadoEntero() : int retornará la variable acumulador.
+    Siempre que se cargue un binario, deberá realizar la suma en Calculador a través del método acumular.
+    Modificar el Main agregando la opción al menú para mostrar el resultado del cálculo en binario o entero según el usuario lo dedica.
+
+NOTAS:
+Reutilizar código siempre.
+Utilizar this siempre que corresponda

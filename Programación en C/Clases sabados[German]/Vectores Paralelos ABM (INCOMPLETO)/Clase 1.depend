@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1523721710 source:c:\users\alumno\desktop\clase 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"Productos.h"
+
+1523721687 c:\users\alumno\desktop\clase 1\productos.h
+
+1523721687 source:c:\users\alumno\desktop\clase 1\productos.c
+	<stdio.h>
+	"Productos.h"
+	<string.h>
+

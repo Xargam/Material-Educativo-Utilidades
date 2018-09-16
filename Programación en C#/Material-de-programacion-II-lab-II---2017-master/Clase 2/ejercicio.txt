@@ -1,0 +1,62 @@
+Cuestionario Teórico 
+
+1. ¿Cuántos objetos alumno puedo tener en mi sistema?
+
+2.¿Cuántas clases alumno  tengo en mi sistema?
+
+3.¿Qué diferencia hay en la sintaxis de la llamada a un método estatico y uno de instancia?
+
+4.¿Para que uso el this?
+
+5.¿Puedo usar el this en un método estatico?
+
+6.¿Puedo usar el this en un método de instancia?,¿Qué pasa si no lo uso?
+Ejercicios
+
+Nº1
+
+Desarrollar una clase llamada Conversor.
+1. Deberá poseer dos métodos de clase (estáticos):
+
+      A. string EnteroBinario(int). Convierte un número de entero a binario ascii (un caracter por bit, siendo “111” el equivalente al número 7).
+
+      B. double BinarioDecimal(string). Convierte un número binario a decimal.
+2. El en Main generar un menú para que el usuario elija que tipo de conversión desea realizar o si desea salir del programa. Luego de elegir una opción, le deberá pedir que ingrese el número a convertir y mostrarle el resultado por pantalla; al presionar cualquier tecla retornar al menu.
+
+ 
+Nº2
+
+Interpretar y documentar el siguiente método:
+
+private static string documentame(float precio, int camisas)
+
+{
+
+          if (camisas >= 3)
+
+          {
+
+              float a = (precio * 20) / 100;
+
+              float b = precio - a;
+
+              return "DESCUENTO 20% PRECIO ES:  " + b;
+
+          }
+
+          else
+
+          {
+
+              float a = (precio * 10) / 100;
+
+              float b = precio - a;
+
+              return "DESCUENTO 10% PRECIO ES:  " + b;
+
+          }
+
+  }
+
+NOTAS:
+Documentar cada método, estructura repetitiva y cualquier parte del código que su lectura pudiera prestarse a confusión, según estándares dados en clase.

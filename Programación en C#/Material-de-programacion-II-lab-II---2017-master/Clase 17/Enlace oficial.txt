@@ -1,0 +1,1 @@
+https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/generics/generic-classes
